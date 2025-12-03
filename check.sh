@@ -6,7 +6,7 @@
 # donde <ref> suele ser a, b, c...
 
 
-SCRIPT="$1.py"
+SCRIPT="problem/$1.py"
 INPUT="input/$1.txt"
 OUTPUT="output/$1.txt"
 
