@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Ejecuta un problema y compara su salida con la esperada
 #

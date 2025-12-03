@@ -13,7 +13,7 @@ También incluye scripts para crear nuevos problemas y comprobar las soluciones.
 Crea archivos de entrada/salida vacíos y genera una plantilla de script
 
 ```bash
-bash new.sh a
+./new.sh a
 ```
 
 ### Comprobar un problema
@@ -21,5 +21,5 @@ bash new.sh a
 Ejecuta el script y compara la salida con la solución deseada
 
 ```bash
-bash check.sh a
+ ./check.sh a
 ```
