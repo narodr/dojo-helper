@@ -23,3 +23,9 @@ Ejecuta el script y compara la salida con la solución deseada
 ```bash
  ./check.sh a
 ```
+
+Se puede probar con el problema de ejemplo:
+
+```bash
+./check.sh example
+```
