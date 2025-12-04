@@ -17,11 +17,19 @@ dojo-helper
 
 ## Utilidades
 
-### `./new.sh <id>`
+### new
+
+```bash
+bash new.sh <id>
+```
 
 Inicializa un nuevo problema creando los archivos de entrada y salida vacíos y un script de python en `problem/<id>.py` siguiendo la plantilla `template.py`.
 
-### `./check.sh <id>`
+### check
+
+```bash
+bash check.sh <id>
+```
 
 Ejecuta el problema y compara la salida con la solución esperada, `output/<id>.txt`.
 
@@ -34,7 +42,7 @@ A continuación se presenta un ejemplo de uso de la plantilla para solucionar un
 1. Creamos un nuevo ejercicio **A** ejecutando
 
     ```bash
-    ./new.sh a
+    bash new.sh a
     ```
 
 2. Copiamos la entrada del problema en `input/a.txt` y la solución esperada en `output/a.txt`.
@@ -44,7 +52,7 @@ A continuación se presenta un ejemplo de uso de la plantilla para solucionar un
 3. Comprobamos la solución:
 
     ```bash
-    ./check.sh a
+    bash check.sh a
     ```
 
 > [!WARNING]
